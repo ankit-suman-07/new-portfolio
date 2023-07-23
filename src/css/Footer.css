@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer {
+    height: 50px;
+    border: 3px solid #222222;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    font-size: 1.4rem;
+    color: #333333;
+    margin: 0 10px 0 10px;
+    transition: 0.5s;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #222222;
+}
+
+.text {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text:hover {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-resume {
+    background-color: white;
+    border: none;
+}

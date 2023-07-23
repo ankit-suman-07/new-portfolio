@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.projects {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.all, .react, .game, .css, .active-filter {
+    width: 80px;
+    padding: 5px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #ffff;
+    border: 2px solid #333333;
+    transition: 0.5s;
+}
+
+.active-filter {
+  background-color: #333333;
+  color: #ffff;
+}
+
+.all:hover, .react:hover, .game:hover, .css:hover {
+    background-color: #333333;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#active-filter {
+  background-color: #333333;
+}
+
+.projects-search {
+    /* border: 1px solid red; */
+    margin: 0 0 10px 0;
+}
+
+.projects-list {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    min-height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    /* padding: 10px; */
+  }
+
+.project-item {
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .projects-list {
+    grid-template-columns: auto auto;
+    
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    .projects-list {
+    grid-template-columns: auto;
+    
+  }
+  }

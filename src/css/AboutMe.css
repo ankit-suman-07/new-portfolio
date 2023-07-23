@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.about {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../assets/hero-bg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.about-card {
+    /* border: 5px solid #DA5532; */
+    border: 3px solid #333333;
+    width: 40%;
+    min-height: 200px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding: 6px 0 6px 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #333333;
+    text-indent: 5px;
+    letter-spacing: 2px;
+}
+
+
+.time {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #000000;
+    background-color: #F6C56E;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-card {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-card {
+        width: 96%;
+    }
+
+    .about-card .name,
+    .about-card .institute,
+    .about-card .degree,
+    .about-card .coursework,
+    .about-card .skill {
+        font-size: 10px;
+    }
+}
+
+.name, .institute, .degree, .coursework, .skill {
+    margin: 5px;
+    /* padding: 5px; */
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 1px;
+}

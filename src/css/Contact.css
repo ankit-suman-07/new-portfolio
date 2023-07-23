@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contact {
+    border: 2px solid #222222;
+    margin-top: 10px;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btns {
+    /* border: 1px solid black; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #333333;
+}
+
+
+.contact-btn {
+    width: 50px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #ffff;
+    border: 3px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.contact-btn:hover {
+    background-color: #333333;
+    color: #ffff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contact-header {
+    border: 1px solid black;
+    width: 100%;
+    padding: 6px 0 6px 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #333333;
+    text-indent: 5px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    border: 2px solid #333333;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+label {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #333333;
+}
+
+textarea {
+    width: 70%;
+    aspect-ratio: 1/0.5;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #333333;
+}
+
+.submit-btn {
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: #ffff;
+    color: #333333;
+    transition: 0.5s;
+}
+
+.submit-btn:hover {
+    transform: scale(0.9);
+    background-color: #333333;
+    color: #ffff;
+    letter-spacing: 4px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .contact-form {
+        width: 70%;
+    }
+
+    .form-btns {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        border: 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .form-btns {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.project-card {
+    border: 2px solid #333333;
+    min-height: 250px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+
+.project-name, .project-desc, .project-skills {
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid #333333; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-name {
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #333333;
+    /* text-indent: 5px; */
+    letter-spacing: 2px;
+}
+
+.project-desc {
+    height: 210px;
+    font-size: 14px;
+    color: #222222;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.project-skills {
+    height: 30px;
+    font-size: 11px;
+    font-weight: 800;
+    color: #DA5532;
+}
+
+.project-btn {
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+}
+
+.project-btn:hover {
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #333333;
+    transform: scale(0.9);
+}
