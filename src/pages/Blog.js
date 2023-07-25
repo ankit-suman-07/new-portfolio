@@ -1,10 +1,11 @@
 import React from "react";
+import "../css/Blog.css";
 
 const Blog = () => {
 
     return (
-        <div>
-            Blog
+        <div className="blog" >
+            <p className="blog-text" >This page is under construction. Please visit in few days.</p>
         </div>
     );
 };

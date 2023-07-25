@@ -22,6 +22,12 @@ const Projects = () => {
                     All
                 </button>
                 <button
+                    className={activeButton === "clone" ? "active-filter" : "clone"}
+                    onClick={() => handleFilterChange("clone")}
+                >
+                    Clone
+                </button>
+                <button
                     className={activeButton === "react" ? "active-filter" : "react"}
                     onClick={() => handleFilterChange("react")}
                 >

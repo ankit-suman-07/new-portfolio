@@ -18,7 +18,7 @@ const Home = () => {
         <>
         <div className="home">
             <div className="imageDiv-top" >
-                <img src={Image} alt="Profile Photo" className="image" />
+                <img src={Image} alt="Profile" className="image" />
             </div>
             
             <div className="hero">
@@ -37,6 +37,8 @@ const Home = () => {
                 I find genuine joy in crafting the visual magic that lies in the front-end part of a website. 
                 From the moment a user sets foot on a page to the seamless interactions that follow, 
                 I'm enchanted by the art and science of coding delightful user interfaces.
+
+                To showcase my skills, I designed and developed this website from scratch. Looking forward to working together with you.
                 </div>
                 
                 <div className="interact" >
@@ -54,14 +56,11 @@ const Home = () => {
             </div>
       
             <div className="imageDiv-bottom" >
-                <img src={Image} alt="Profile Photo" className="image" />
+                <img src={Image} alt="Profile" className="image" />
             </div>
     </div>
     
     <Featured />
-    <div className="flex" >
-        This website has completely been designed and developed by ME.
-    </div>
     </>
     );
 };

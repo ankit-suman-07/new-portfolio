@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import {Link } from "react-router-dom";
 import ProjectsCard from "../components/ProjectsCard";
 import { ProjectList } from '../helper/ProjectList';
 import "../css/Featured.css";
@@ -22,6 +23,9 @@ const Featured = () => {
                     }
                     
                 })}
+            </div>
+            <div className="all-projects-link"  >
+                <Link exact to="/projects" className="bottom-link" >All Projects &gt;&gt;&gt; </Link>
             </div>
             
         </div>

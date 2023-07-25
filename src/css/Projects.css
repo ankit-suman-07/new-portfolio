@@ -5,7 +5,7 @@
     margin-top: 10px;
 }
 
-.all, .react, .game, .css, .active-filter {
+.all, .clone, .react, .game, .css, .active-filter {
     width: 80px;
     padding: 5px;
     margin-right: 5px;
@@ -21,7 +21,7 @@
   color: #ffff;
 }
 
-.all:hover, .react:hover, .game:hover, .css:hover {
+.all:hover, .react:hover, .game:hover, .css:hover, .clone:hover {
     background-color: #333333;
     color: #ffff;
     cursor: pointer;
@@ -57,13 +57,12 @@
   
   @media only screen and (max-width: 1000px) {
     .projects-list {
-    grid-template-columns: auto auto;
-    
+      grid-template-columns: auto auto;
+    }
   }
-  }
+  
   @media only screen and (max-width: 600px) {
     .projects-list {
-    grid-template-columns: auto;
-    
-  }
+      grid-template-columns: auto;
+    }
   }
