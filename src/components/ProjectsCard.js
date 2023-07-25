@@ -5,7 +5,7 @@ const ProjectsCard = ({  name, id, url, featured, skills, desc}) => {
     
     return (
         <>
-        <a href={url} >
+        <a href={url}  target="_blank" >
             <div className="project-card" >
                 <span className="project-name" >{ name }</span>
                 <span className="project-desc" >{ desc }</span>

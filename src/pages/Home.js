@@ -57,7 +57,11 @@ const Home = () => {
                 <img src={Image} alt="Profile Photo" className="image" />
             </div>
     </div>
+    
     <Featured />
+    <div className="flex" >
+        This website has completely been designed and developed by ME.
+    </div>
     </>
     );
 };
