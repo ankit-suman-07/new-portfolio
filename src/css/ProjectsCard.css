@@ -7,12 +7,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* background-image: url("../assets/bg.jpg");
+    background-size: contain; */
     transition: 0.3s;
 }
 
+
+
 .project-card:hover {
     transform: scale(0.9);
-    opacity: 0.9;
+    font-weight: 600;
 }
 
 .project-name, .project-desc, .project-skills {

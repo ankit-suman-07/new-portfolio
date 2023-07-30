@@ -43,6 +43,8 @@ const AboutMe = () => {
         //     skill_4 : "Creativity",
         // },
     ];
+
+    
     return (
         <div className="about">
             {

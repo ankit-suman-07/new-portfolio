@@ -18,8 +18,11 @@ const Featured = () => {
                 ProjectList.map((project, idx) => {
                     if ((project.tag).includes(filter)) {
                         return (
-                            <ProjectsCard id={idx} name={project.name}  url={project.url} featured={project.featured} skills={project.skills} desc={project.description} />
+                            <ProjectsCard id={idx} name={project.name}  url={project.url} featured={project.featured} skills={project.skills} desc={project.description} image={project.background} />
                         );
+                    }
+                    else {
+                        return null;
                     }
                     
                 })}
