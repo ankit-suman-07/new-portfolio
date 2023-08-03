@@ -10,6 +10,8 @@ import RPS from "../assets/rps.png";
 import Calculator from "../assets/calculator.png";
 import Clock from "../assets/wall-clock.png";
 import Tracker from "../assets/finance.png";
+import Snake from "../assets/cobra.png";
+import Hops from "../assets/hero.png";
 
 export const ProjectList = [
   {
@@ -35,6 +37,14 @@ export const ProjectList = [
     tag: ["featured", "all", "react"],
     background : Theme,
     description : "An intuitive React App featuring a mini-website, designed to offer seamless theme-switching functionality. Elevate your browsing experience by effortlessly toggling through diverse themes using the elegantly placed buttons. Each press artfully transforms the color scheme, imbuing the website with a fresh and captivating appearance. This cutting-edge project exemplifies the seamless integration of design and functionality.",
+  },
+  {
+    name: "The Hops Game",
+    skills: "JavaScript, CSS, HTML",
+    url : "https://js-thehopsgame.netlify.app/",
+    tag: ["all", "game"],
+    background : Hops,
+    description: "Embark on an exciting adventure in this nostalgic platformer game inspired by the classic Dave. Jump and climb your way through various platforms, collecting coins and lives along the way. Reach the door on the other side to win, but beware of challenges and obstacles that stand in your path. Enjoy the thrill of this retro-style game!",
   },
   {
     name: "Random APIs",
@@ -67,6 +77,14 @@ export const ProjectList = [
     tag: ["all", "react"],
     background : Todo,
     description : "A Todo list app meticulously developed with ReactJS, offering seamless task management with an intuitive interface. This robust application allows users to effortlessly add tasks and efficiently remove completed items. The implementation of unique IDs ensures precise identification, enabling precise removal of targeted tasks, even amidst identical task names.",
+  },
+  {
+    name: "Snake Game",
+    skills: "JavaScript, CSS, HTML",
+    url : "https://js-snakesgame.netlify.app/",
+    tag: ["all", "game"],
+    background : Snake,
+    description: "Experience the classic fun of Snake Game! This browser-based game is built using HTML, CSS, and JavaScript, offering a simple yet addictive gameplay. Control the snake to collect food and grow longer while avoiding collisions with the walls and its own tail. Challenge your reflexes and aim for the highest score!",
   },
   {
     name: "Quote Generator",
