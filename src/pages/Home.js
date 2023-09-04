@@ -5,7 +5,15 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from '@mui/icons-material/Twitter';
 import DownloadIcon from '@mui/icons-material/Download';
+
+import LinkedIn from "../assets/linkedin.png";
+import Instagram from "../assets/instagram.png";
+import Twitter from "../assets/twitter.png";
+import Github from "../assets/github.png";
+import Gmail from "../assets/gmail.png";
+import LeetCodeIcon from "../assets/leetcode.png";
 import "../css/Home.css";
 
 const Home = () => {
@@ -47,10 +55,13 @@ const Home = () => {
                     </button>
                     
                     <div className="socials" >
-                        <a href="https://www.linkedin.com/in/ankit-suman-6925011b6/"><LinkedInIcon /></a>
-                        <a href="https://github.com/ankit-suman-07"><GithubIcon /></a>
-                        <a href="https://www.instagram.com/ankit__suman_/"><InstagramIcon /></a>
-                        <a href="mailto:ankitsuman07@gmail.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20have%20a%20question%20for%20you.[Please%20update%20the%20mail%20IDs]"><EmailIcon /></a>
+                        <a href="https://www.linkedin.com/in/ankit-suman-6925011b6/"> <img src={LinkedIn} /> </a>
+                        <a href="https://github.com/ankit-suman-07"> <img src={Github} /> </a>
+                        <a href="https://www.instagram.com/ankit__suman_/"> <img src={Instagram} /> </a>
+                        <a href="https://twitter.com/ankit_suman_"> <img src={Twitter} /> </a>
+                        <a href="https://leetcode.com/user9247xh/"> <img src={LeetCodeIcon} /> </a>
+                        <a href="mailto:ankitsuman07@gmail.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20have%20a%20question%20for%20you.[Please%20update%20the%20mail%20IDs]"> <img src={Gmail} /> </a>
+                        
                     </div>
                 </div>       
             </div>

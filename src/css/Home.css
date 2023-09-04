@@ -99,6 +99,10 @@
     transform: scale(1.2);
 }
 
+.socials a img {
+    height: 25px;
+}
+
 .imageDiv-bottom {
     width: 30%;
     display: flex;

@@ -5,6 +5,7 @@ import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutl
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from "@mui/icons-material/Email";
+import TwitterIcon from '@mui/icons-material/Twitter';
 import "../css/Contact.css";
 
 const Contact = () => {
@@ -60,8 +61,8 @@ const Contact = () => {
         <a href="mailto:ankitsuman07@gmail.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20have%20a%20question%20for%20you.[Please%20update%20the%20mail%20IDs]">
             <button className='contact-btn' > <EmailIcon /> </button>
         </a>
-        <a href="https://github.com/ankit-suman-07">
-            <button className='contact-btn'    onClick={openPDF}   > <InsertDriveFileOutlinedIcon /> </button>
+        <a href="https://twitter.com/ankit_suman_">
+            <button className='contact-btn'   > <TwitterIcon /> </button>
         </a>
     </div>
     <br />

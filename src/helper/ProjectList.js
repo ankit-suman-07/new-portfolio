@@ -1,3 +1,4 @@
+import Dashboard from "../assets/dashboard.png";
 import Ecommerce from "../assets/shopping-bag.png";
 import Portfolio from "../assets/file.png";
 import Theme from "../assets/theme.png";
@@ -14,6 +15,14 @@ import Snake from "../assets/cobra.png";
 import Hops from "../assets/hero.png";
 
 export const ProjectList = [
+  {
+    name: "Dashboard",
+    skills: "ReactJS, Firebase, JavaScript, CSS, HTML",
+    url : "https://dashboard-reactjs-demo.netlify.app/",
+    tag: ["featured", "all", "react"],
+    background : Dashboard,
+    description: "A ReactJS-based admin dashboard project with Firebase user authentication, showcasing dynamic business metrics like revenue, user statistics, and likes. It utilizes Google Charts to present interactive Spline graphs and PieCharts, with data updating in real-time according to the selected month.",
+  },
   {
     name: "E-Commerce",
     skills: "ReactJS, JavaScript, CSS, HTML",
@@ -34,7 +43,7 @@ export const ProjectList = [
     name: "Theme Switcher",
     skills: "ReactJS, JavaScript, CSS, HTML",
     url : "https://switch-themes.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background : Theme,
     description : "An intuitive React App featuring a mini-website, designed to offer seamless theme-switching functionality. Elevate your browsing experience by effortlessly toggling through diverse themes using the elegantly placed buttons. Each press artfully transforms the color scheme, imbuing the website with a fresh and captivating appearance. This cutting-edge project exemplifies the seamless integration of design and functionality.",
   },
