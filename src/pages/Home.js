@@ -1,5 +1,6 @@
 import React from "react";
 import Featured from "../components/Featured";
+import { Skills } from "../components/Skills";
 import Image from "../assets/profile.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
@@ -70,6 +71,8 @@ const Home = () => {
                 <img src={Image} alt="Profile" className="image" />
             </div>
     </div>
+
+    <Skills />
     
     <Featured />
     </>
