@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
-import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from "@mui/icons-material/Email";
@@ -44,10 +43,10 @@ const Contact = () => {
       });
   };
 
-  const openPDF = () => {
-    const pdfUrl = process.env.PUBLIC_URL + "/pdf/Resume - Ankit Suman.pdf";
-    window.open(pdfUrl);
-  };
+  // const openPDF = () => {
+  //   const pdfUrl = process.env.PUBLIC_URL + "/pdf/Resume - Ankit Suman.pdf";
+  //   window.open(pdfUrl);
+  // };
 
   return (
     <div className='contact' >
