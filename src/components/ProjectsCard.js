@@ -12,7 +12,7 @@ const ProjectsCard = ({ name, id, url, featured, skills, desc, image }) => {
 
   return (
     <>
-      <a href={url} target="_blank">
+      <a href={url} target="_blank"  rel="noopener noreferrer">
         <div className="background-div" style={backgroundStyle}>
           <div className="project-card">
             <span className="project-name">{name}</span>
