@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ProjectsCard from "../components/ProjectsCard";
 import { ProjectList } from '../helper/ProjectList';
 import "../css/Projects.css";
@@ -12,8 +12,15 @@ const Projects = () => {
         setActiveButton(newFilter);
     };
 
+    const topRef = useRef(null);
+
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    topRef.current.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
     return (
-        <div className="projects" >
+        <div className="projects" id="top" ref={topRef} >
             <div className="projects-search" >
             <button
                     className={activeButton === "all" ? "active-filter" : "all"}

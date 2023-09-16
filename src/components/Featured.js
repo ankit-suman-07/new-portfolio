@@ -28,7 +28,7 @@ const Featured = () => {
                 })}
             </div>
             <div className="all-projects-link"  >
-                <Link exact to="/projects" className="bottom-link" >All Projects &gt;&gt;&gt; </Link>
+                <Link exact to="/projects#top" className="bottom-link" >All Projects &gt;&gt;&gt; </Link>
             </div>
             
         </div>
