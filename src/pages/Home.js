@@ -61,7 +61,7 @@ const Home = () => {
                         <a href="https://www.instagram.com/ankit__suman_/"> <img src={Instagram} alt="instagram" /> </a>
                         <a href="https://twitter.com/ankit_suman_"> <img src={Twitter} alt="twitter" /> </a>
                         <a href="https://leetcode.com/user9247xh/"> <img src={LeetCodeIcon} alt="leetcode" /> </a>
-                        <a href="mailto:ankitsuman07@gmail.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20have%20a%20question%20for%20you.[Please%20update%20the%20mail%20IDs]"> <img src={Gmail} /> </a>
+                        <a href="mailto:ankitsuman07@gmail.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20have%20a%20question%20for%20you.[Please%20update%20the%20mail%20IDs]"> <img src={Gmail} alt="gmail" /> </a>
                         
                     </div>
                 </div>       
