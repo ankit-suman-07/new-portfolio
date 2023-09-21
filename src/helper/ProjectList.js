@@ -13,6 +13,7 @@ import Clock from "../assets/wall-clock.png";
 import Tracker from "../assets/finance.png";
 import Snake from "../assets/cobra.png";
 import Hops from "../assets/hero.png";
+import Bored from "../assets/sleeping.png";
 
 export const ProjectList = [
   {
@@ -38,6 +39,14 @@ export const ProjectList = [
     tag: ["all", "react"],
     background : Portfolio,
     description : "My personal portfolio website, meticulously designed and coded from scratch. Embodying a minimalist and modern aesthetic, the tasteful use of colors exudes an alluring charm, creating an aesthetically pleasing user experience. The Project page offers seamless sorting options for effortless navigation through my showcased projects. Leveraging the power of ReactJS, this dynamic portfolio is hosted flawlessly on Netlify.",
+  },
+  {
+    name: "The Bored Man",
+    skills: "Vite, ReactJS, JavaScript, CSS, HTML",
+    url : "https://vite-bored-api.netlify.app/",
+    tag: ["all", "react"],
+    background: Bored,
+    description: "Made using Vite and Reactjs, this web app gives you an activity to perform in case you are getting bored. You can either get a random activity or select a category and get activity based on that.",
   },
   {
     name: "Theme Switcher",
