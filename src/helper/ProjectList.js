@@ -16,6 +16,14 @@ import Hops from "../assets/hero.png";
 import Bored from "../assets/sleeping.png";
 
 export const ProjectList = [
+{
+    name: "Expense Tracker Dashboard",
+    skills: "ReactJS, Redux, Firebase, JavaScript, CSS, HTML",
+    url : "https://tracker-reactjs.netlify.app/",
+    tag: ["featured", "all", "react"],
+    background : Dashboard,
+    description: "A ReactJS-based expense tracker dashboard project with Firebase user authentication and redux for centralized state management. Add your expenses in different categories and keep track of all you expenses with different metrics showcased using graphs.",
+  },
   {
     name: "Dashboard",
     skills: "ReactJS, Firebase, JavaScript, CSS, HTML",
@@ -28,7 +36,7 @@ export const ProjectList = [
     name: "E-Commerce",
     skills: "ReactJS, JavaScript, CSS, HTML",
     url : "https://billionnairescart.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background : Ecommerce,
     description : "BillionnairesCart is an exclusive ecommerce platform tailored for discerning individuals seeking luxury products like islands, jets, and other high-end items. Developed with React hooks, the website offers a seamless user experience. Leveraging JavaScript arrays as a pseudo-database, the platform efficiently handles product data, enabling users to explore and purchase extravagant products in style.",
   },
