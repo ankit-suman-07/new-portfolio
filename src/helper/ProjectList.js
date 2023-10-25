@@ -1,3 +1,4 @@
+import BookStore from "../assets/book.png";
 import ExpTrackDash from "../assets/expense-tracher-dashboard.png";
 import Dashboard from "../assets/dashboard.png";
 import Ecommerce from "../assets/shopping-bag.png";
@@ -18,6 +19,22 @@ import Bored from "../assets/sleeping.png";
 
 export const ProjectList = [
   {
+    name: "GameIt - (Netflix & IMDB for games)",
+    skills: "ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, JavaScript",
+    url: "https://game-netflix.netlify.app/",
+    tag: ["featured", "all", "react"],
+    background: ExpTrackDash,
+    description: "Working on this App Currently.....A Fullstack Game listing App made with MERN stack.",
+  },
+  {
+    name: "BookStore CRUD",
+    skills: "ReactJS, NodeJS, ExpressJS, MongoDB, JavaScript",
+    url: "https://www.youtube.com/watch?v=Ly3YNet1xqg",
+    tag: ["featured", "all", "react"],
+    background: BookStore,
+    description: "A Fullstack CRUD App made using MERN stack. New Books can be added, Books can be displayed or deleted and their data can be edited as well.",
+  },
+  {
     name: "Expense Tracker Dashboard",
     skills: "ReactJS, Redux, Firebase, JavaScript, CSS, HTML",
     url: "https://tracker-reactjs.netlify.app/",
@@ -29,7 +46,7 @@ export const ProjectList = [
     name: "Dashboard",
     skills: "ReactJS, Firebase, JavaScript, CSS, HTML",
     url : "https://dashboard-reactjs-demo.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background : Dashboard,
     description: "A ReactJS-based admin dashboard project with Firebase user authentication, showcasing dynamic business metrics like revenue, user statistics, and likes. It utilizes Google Charts to present interactive Spline graphs and PieCharts, with data updating in real-time according to the selected month.",
   },
@@ -77,7 +94,7 @@ export const ProjectList = [
     name: "Random APIs",
     skills: "ReactJS, JavaScript, CSS, HTML",
     url : "https://random-api-project.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background : API,
     description : "Step into a world of delightful randomness with this captivating React App, thoughtfully curated to bring moments of joy and amusement. Discover an array of APIs, each encapsulating a unique surprise - from humorous jokes and intriguing trivia to soulful poetry and clever puns. Six APIs lie at your fingertips, waiting to whisk you away on an enchanting journey of discovery.",
   },
