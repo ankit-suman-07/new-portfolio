@@ -1,3 +1,4 @@
+import GameIt from "../assets/gameit.png";
 import BookStore from "../assets/book.png";
 import ExpTrackDash from "../assets/expense-tracher-dashboard.png";
 import Dashboard from "../assets/dashboard.png";
@@ -23,7 +24,7 @@ export const ProjectList = [
     skills: "ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, JavaScript",
     url: "https://game-netflix.netlify.app/",
     tag: ["featured", "all", "react"],
-    background: ExpTrackDash,
+    background: GameIt,
     description: "Working on this App Currently.....A Fullstack Game listing App made with MERN stack.",
   },
   {
