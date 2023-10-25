@@ -1,3 +1,4 @@
+import ExpTrackDash from "../assets/expense-tracher-dashboard.png";
 import Dashboard from "../assets/dashboard.png";
 import Ecommerce from "../assets/shopping-bag.png";
 import Portfolio from "../assets/file.png";
@@ -21,7 +22,7 @@ export const ProjectList = [
     skills: "ReactJS, Redux, Firebase, JavaScript, CSS, HTML",
     url: "https://tracker-reactjs.netlify.app/",
     tag: ["featured", "all", "react"],
-    background: Dashboard,
+    background: ExpTrackDash,
     description: "A ReactJS-based expense tracker dashboard project with Firebase user authentication and redux for centralized state management. Add your expenses in different categories and keep track of all you expenses with different metrics showcased using graphs.",
   },
   {
