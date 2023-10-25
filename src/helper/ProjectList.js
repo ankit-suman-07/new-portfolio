@@ -17,6 +17,14 @@ import Bored from "../assets/sleeping.png";
 
 export const ProjectList = [
   {
+    name: "Expense Tracker Dashboard",
+    skills: "ReactJS, Redux, Firebase, JavaScript, CSS, HTML",
+    url: "https://tracker-reactjs.netlify.app/",
+    tag: ["featured", "all", "react"],
+    background: Dashboard,
+    description: "A ReactJS-based expense tracker dashboard project with Firebase user authentication and redux for centralized state management. Add your expenses in different categories and keep track of all you expenses with different metrics showcased using graphs.",
+  },
+  {
     name: "Dashboard",
     skills: "ReactJS, Firebase, JavaScript, CSS, HTML",
     url : "https://dashboard-reactjs-demo.netlify.app/",
