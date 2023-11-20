@@ -22,11 +22,11 @@ const AboutMe = () => {
     ];
     const skills = [
         {
-            heading : "Tech Skills",
-            skill_1 : "ReactJS, Firebase",
-            skill_2 : "Git & GitHub, Linux",
-            skill_3 : "JavaScript, CSS, HTML",
-            skill_4 : "Python, Java, C++",
+            heading: "Tech Skills",
+            skill_1: "PostgreSQL, MongoDB, NodeJS",
+            skill_2: "ReactJS, ExpressJS, Firebase",
+            skill_3: "Git & GitHub, Linux",
+            skill_4: "JavaScript, CSS, HTML",
         },
         {
             heading : "Soft Skills",
@@ -53,9 +53,9 @@ const AboutMe = () => {
                     <span className="header">{e.heading}</span>
                     <span className="name">{e.name}</span>
                     <span className="institute" >{e.institute}</span>
-                    <span className="degree" >{e.degree}</span>
+                    {/* <span className="degree" >{e.degree}</span> */}
                     <span className="coursework" >{e.coursework}</span>
-                    <span className="time" >{e.timeline}</span>
+                    {/* <span className="time" >{e.timeline}</span> */}
                 </div>
             ))
             }
