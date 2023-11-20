@@ -1,3 +1,4 @@
+import Notes from "../assets/notes.png";
 import GameIt from "../assets/gameit.png";
 import BookStore from "../assets/book.png";
 import ExpTrackDash from "../assets/expense-tracher-dashboard.png";
@@ -20,10 +21,18 @@ import Bored from "../assets/sleeping.png";
 
 export const ProjectList = [
   {
+    name: "Notes.",
+    skills: "ReactJS, NodeJS, ExpressJS, PostgreSQL, Firebase, Prisma",
+    url: "https://mern-notes-nine.vercel.app/",
+    tag: ["featured", "all", "react", "postgresql"],
+    background: Notes,
+    description: "A Fullstack PERN stack Note-taking app with user authentication. Create, View, Edit or Delete the notes which are specific to user. Secured using Firebase authentication.",
+  },
+  {
     name: "GameIt - (Netflix & IMDB for games)",
     skills: "ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, JavaScript",
     url: "https://game-netflix.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background: GameIt,
     description: "Working on this App Currently.....A Fullstack Game listing App made with MERN stack.",
   },
