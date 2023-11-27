@@ -1,5 +1,7 @@
 import React from "react";
 import Featured from "../components/Featured";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Skills } from "../components/Skills";
 import Image from "../assets/profile.png";
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -26,6 +28,7 @@ const Home = () => {
     
     return (
         <>
+            <Navbar />
         <div className="home">
             <div className="imageDiv-top" >
                 <img src={Image} alt="Profile" className="image" />
@@ -76,7 +79,7 @@ const Home = () => {
     <Skills />
     
             <Featured />
-            {/* <Contact /> */}
+            <Footer />
     </>
     );
 };

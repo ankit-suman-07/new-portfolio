@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import "../css/AboutMe.css";
 
 const AboutMe = () => {
@@ -46,6 +47,8 @@ const AboutMe = () => {
 
     
     return (
+        <>
+            <Navbar />
         <div className="about">
             {
             data.map((e, index) => (
@@ -70,7 +73,8 @@ const AboutMe = () => {
                 </div>
             ))
             }
-        </div>
+            </div>
+        </>
     );
 };
 

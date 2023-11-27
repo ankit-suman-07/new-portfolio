@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import emailjs from 'emailjs-com';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -49,6 +51,8 @@ const Contact = () => {
   // };
 
   return (
+    <>
+      <Navbar />
     <div className='contact' >
     <div className='form-btns' >
         <a href="https://www.linkedin.com/in/ankit-suman-6925011b6/">
@@ -88,7 +92,9 @@ const Contact = () => {
         </div>
         <button type="submit" className='submit-btn' >Send</button>
     </form>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 

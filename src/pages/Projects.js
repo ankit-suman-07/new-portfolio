@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import ProjectsCard from "../components/ProjectsCard";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { ProjectList } from '../helper/ProjectList';
 import "../css/Projects.css";
 
@@ -20,7 +22,9 @@ const Projects = () => {
   }, []);
 
     return (
-        <div className="projects" id="top" ref={topRef} >
+        <div id="top" ref={topRef} >
+            <Navbar />
+            <div className="projects"  >
             <div className="projects-search" >
             <button
                     className={activeButton === "all" ? "active-filter" : "all"}
@@ -69,6 +73,8 @@ const Projects = () => {
                 })}
             </div>
             
+            </div>
+            <Footer />
         </div>
     );
 };
