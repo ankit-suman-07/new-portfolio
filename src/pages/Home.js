@@ -16,6 +16,7 @@ import Github from "../assets/github.png";
 import Gmail from "../assets/gmail.png";
 import LeetCodeIcon from "../assets/leetcode.png";
 import "../css/Home.css";
+import Contact from "./Contact";
 
 const Home = () => {
     const openPDF = () => {
@@ -36,7 +37,7 @@ const Home = () => {
                 </div>
                 
                 <div className="hero-heading" >
-                    A passionate Web Developer
+                        A Fullstack Web Developer
                 </div>
                 
                 <div className="hero-description" >
@@ -74,7 +75,8 @@ const Home = () => {
 
     <Skills />
     
-    <Featured />
+            <Featured />
+            {/* <Contact /> */}
     </>
     );
 };
