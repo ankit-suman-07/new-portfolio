@@ -29,12 +29,12 @@ export const ProjectList = [
     description: "A Fullstack PERN stack Note-taking app with user authentication. Create, View, Edit or Delete the notes which are specific to user. Secured using Firebase authentication.",
   },
   {
-    name: "GameIt - (Netflix & IMDB for games)",
+    name: "GameIt",
     skills: "ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, JavaScript",
     url: "https://game-netflix.netlify.app/",
     tag: ["all", "react"],
     background: GameIt,
-    description: "Working on this App Currently.....A Fullstack Game listing App made with MERN stack.",
+    description: "Working on this App Currently.....A Fullstack Game listing App made with MERN stack. Based on design and functionalities of Netflix.",
   },
   {
     name: "BookStore CRUD",
