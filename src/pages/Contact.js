@@ -28,7 +28,7 @@ const Contact = () => {
       to_email: 'ankitsuman07@gmail.com', // Your email address
       from_name: data.name,
       from_email: data.email,
-      message: "Message : " + data.email + "\n Message : " + data.message,
+      message: "Mail from : " + data.email + "\n Message : " + data.message,
     };
 
     // Send the email

@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
             <div className="right-nav" id={navbar ? "open" : "close"} >
                 <NavLink exact to="/" className="link"  activeClassName="active" onClick={ () => {setNavBar(false)} }  >Home</NavLink>
-                <NavLink exact to="/aboutme" className="link"  activeClassName="active" onClick={ () => {setNavBar(false)} }  >About Me</NavLink>
+                <NavLink exact to="/about" className="link" activeClassName="active" onClick={() => { setNavBar(false) }}  >About Me</NavLink>
                 <NavLink exact to="/projects" className="link"  activeClassName="active" onClick={ () => {setNavBar(false)} }  >Projects</NavLink>
                 <NavLink exact to="/blog" className="link"  activeClassName="active" onClick={ () => {setNavBar(false)} }  >Blog</NavLink>
                 <NavLink exact to="/contact" className="link"  activeClassName="active" onClick={ () => {setNavBar(false)} }  >Contact Me</NavLink>
