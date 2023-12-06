@@ -18,7 +18,6 @@ import Github from "../assets/github.png";
 import Gmail from "../assets/gmail.png";
 import LeetCodeIcon from "../assets/leetcode.png";
 import "../css/Home.css";
-import Contact from "./Contact";
 
 const Home = () => {
     const openPDF = () => {
