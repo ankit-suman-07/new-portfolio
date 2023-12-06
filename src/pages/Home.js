@@ -43,14 +43,13 @@ const Home = () => {
                 </div>
                 
                 <div className="hero-description" >
-                Armed with a Bachelor's degree in Computer Science, I am now on a thrilling quest to embark on my 
-                journey as a front-end developer and breathe life into captivating websites.
-                
-                I find genuine joy in crafting the visual magic that lies in the front-end part of a website. 
-                From the moment a user sets foot on a page to the seamless interactions that follow, 
-                I'm enchanted by the art and science of coding delightful user interfaces.
-
-                To showcase my skills, I designed and developed this website from scratch. Looking forward to working together with you.
+                        A passionate and innovative computer science graduate with a strong foundation in Full Stack Development.
+                        Having successfully completed a rigorous MERN (MongoDB, Express.js, React.js, Node.js) stack bootcamp,
+                        I bring a diverse skill set and hands-on experience in building dynamic and responsive web applications.
+                        My journey in web development has been marked by the creation of several impactful projects, demonstrating my proficiency
+                        in both front-end and back-end technologies. Explore my portfolio to witness firsthand how I transform ideas into functional
+                        and user-friendly solutions. I am excited about the opportunity to contribute my skills and enthusiasm to a dynamic team.
+                        Let's connect and discuss how my dedication to continuous learning and problem-solving can be an asset to your organization.
                 </div>
                 
                 <div className="interact" >
