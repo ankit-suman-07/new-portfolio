@@ -18,6 +18,7 @@ import Tracker from "../assets/finance.png";
 import Snake from "../assets/cobra.png";
 import Hops from "../assets/hero.png";
 import Bored from "../assets/sleeping.png";
+import Job from "../assets/job.png";
 
 export const ProjectList = [
   {
@@ -28,6 +29,23 @@ export const ProjectList = [
     background: Notes,
     description: "A Fullstack PERN stack Note-taking app with user authentication. Create, View, Edit or Delete the notes which are specific to user. Secured using Firebase authentication.",
   },
+  {
+    name: "Books",
+    skills: "ReactJS, Firebase, JavaScript",
+    url: "https://books-dashboard.vercel.app/",
+    tag: ["featured", "all", "react"],
+    background: BookStore,
+    description: "A reactjs app that extracts book details from API and displays in tabular format.",
+  },
+  {
+    name: "Weekday Clone",
+    skills: "ReactJS, JavaScript",
+    url: "https://weekday-jobs-liart.vercel.app/",
+    tag: ["all", "react"],
+    background: Job,
+    description: "A job board similar to weekday made using Reactjs and Redux. Infinite Scroll made from scratch using JavaScript.",
+  },
+
   {
     name: "GameIt",
     skills: "ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, JavaScript",
@@ -48,7 +66,7 @@ export const ProjectList = [
     name: "Expense Tracker Dashboard",
     skills: "ReactJS, Redux, Firebase, JavaScript, CSS, HTML",
     url: "https://tracker-reactjs.netlify.app/",
-    tag: ["featured", "all", "react"],
+    tag: ["all", "react"],
     background: ExpTrackDash,
     description: "A ReactJS-based expense tracker dashboard project with Firebase user authentication and redux for centralized state management. Add your expenses in different categories and keep track of all you expenses with different metrics showcased using graphs.",
   },
