@@ -23,8 +23,8 @@ export const Skills = () => {
     // const skillset = ["Next.js", "React.js", "Redux", "Jest", "Node.js", "Firebase", "MongoDB", "Babel", "Webpack", "Linux", "Git & Github", "Python", "Java", "Data Structures", "CSS", "HTML"];
     // const skillimage = [NextIcon, ReactIcon, ReduxIcon, JestIcon, NodeIcon, FirebaseIcon, MongoDBIcon, BabelIcon, WebpackIcon, LinuxIcon, GitIcon, PythonIcon, JavaIcon, DSAIcon, CSSIcon, HTMLIcon];
 
-    const skillset = ["Next.js", "React.js", "Redux", "Node.js", "Firebase", "PostgreSQL", "MongoDB", "Linux", "Git & Github", "Python", "Java", "Data Structures", "CSS", "HTML"];
-    const skillimage = [NextIcon, ReactIcon, ReduxIcon, NodeIcon, FirebaseIcon, PostgreSQL, MongoDBIcon, LinuxIcon, GitIcon, PythonIcon, JavaIcon, DSAIcon, CSSIcon, HTMLIcon];
+    const skillset = ["React.js", "Redux", "Node.js", "Firebase", "PostgreSQL", "MongoDB", "Linux", "Git & Github", "Python", "Java", "Data Structures", "CSS", "HTML"];
+    const skillimage = [ReactIcon, ReduxIcon, NodeIcon, FirebaseIcon, PostgreSQL, MongoDBIcon, LinuxIcon, GitIcon, PythonIcon, JavaIcon, DSAIcon, CSSIcon, HTMLIcon];
     return (
     <div className='skills-comp' >
         <div className="skills-heading" >
