@@ -41,7 +41,7 @@ export const ProjectList = [
     name: "Weekday Clone",
     skills: "ReactJS, JavaScript",
     url: "https://weekday-jobs-liart.vercel.app/",
-    tag: ["all", "react"],
+    tag: ["all", "react", "clone"],
     background: Job,
     description: "A job board similar to weekday made using Reactjs and Redux. Infinite Scroll made from scratch using JavaScript.",
   },
