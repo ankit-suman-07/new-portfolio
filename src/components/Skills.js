@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Skills.css";
 
-import NextIcon from "../assets/skills/next.png";
+// import NextIcon from "../assets/skills/next.png";
 import ReactIcon from "../assets/skills/react.png";
 import ReduxIcon from "../assets/skills/redux.png";
 // import JestIcon from "../assets/skills/jest.png";
